@@ -18,3 +18,5 @@ const teo = new Person('Teo', 20);
 
 // khoa.sayHello()
 khoa.sayHello();
+
+// DanOng DanBa -> 99, 1, 1 -> Person 

@@ -1,8 +1,23 @@
-function Person(ten, tuoi) {
-    this.name = ten;
-    this.age = tuoi;
-    this.sayHello = () => console.log(`Xin chao, toi la ${this.name}, toi ${this.age} tuoi.`);
-    this.incrAge = () => this.age++;
+// function Person(ten, tuoi) {
+//     this.name = ten;
+//     this.age = tuoi;
+//     this.sayHello = () => console.log(`Xin chao, toi la ${this.name}, toi ${this.age} tuoi.`);
+//     this.incrAge = () => this.age++;
+// }
+
+class Person {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    sayHello() {
+        console.log(`Xin chao, toi la ${this.name}, toi ${this.age} tuoi.`);
+    }
+
+    incrAge() {
+        this.age++;
+    }
 }
 
 const khoa = new Person('Khoa Pham', 30);
