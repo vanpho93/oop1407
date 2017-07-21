@@ -12,4 +12,19 @@ const arrSubject = [
 // arrSubject.splice(1, 2);
 // arrSubject.splice(2, 0, 'iOS', 'Unity');
 
+// console.log(arrSubject[1]);
+// for(let i = 0; i < arrSubject.length; i++) {
+//     console.log(arrSubject[i]);
+// }
+
+// arrSubject['a'] = 1000;
+
+for(let subject of arrSubject) {
+    console.log(subject);
+}
+
+// console.log(arrSubject);
+
+console.log(arrSubject.reverse());
+
 console.log(arrSubject);
